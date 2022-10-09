@@ -1,0 +1,85 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  /* Positioning */
+  
+  .business-card {
+    width: 450px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  body {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/marinha-beach.jpeg') no-repeat 
+    center center fixed;
+    background-size: cover;
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+    padding: 5% 10%;
+  }
+  
+  .head, .about {
+    margin-bottom: 5%;
+  }
+  
+  .profile-picture {
+    margin-top: -60px;
+  }
+  
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(80%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  img:hover {
+    filter: grayscale(20%);
+    transform: scale(1.1);
+  }
+  
+  .business-card {
+    background-color: hsla(0, 0%, 100%, .6);
+    border-radius: 25%;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  /* Contact links */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+ .social-icon  {
+    color: rgb(43, 27, 12);
+ }
+ .social-icon:hover  {
+    color:navy;
+ }
